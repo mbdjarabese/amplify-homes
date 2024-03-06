@@ -25,14 +25,14 @@ export default function StandardCard2(props) {
       {...rest}
     >
       <Image
-        width="unset"
+        width="100% !important"
         height="160px"
         display="block"
         gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
+        alignItems="center"
+        justifyContent="between"
         shrink="0"
-        alignSelf="stretch"
+        alignSelf="center"
         position="relative"
         padding="0px 0px 0px 0px"
         objectFit="cover"
@@ -44,10 +44,10 @@ export default function StandardCard2(props) {
         direction="column"
         width="unset"
         height="unset"
-        justifyContent="flex-start"
-        alignItems="flex-start"
+        justifyContent="flex-center"
+        alignItems="flex-center"
         shrink="0"
-        alignSelf="stretch"
+        alignSelf="center"
         position="relative"
         padding="16px 16px 16px 16px"
         {...getOverrideProps(overrides, "Card Area")}

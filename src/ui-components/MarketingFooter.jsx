@@ -15,7 +15,7 @@ export default function MarketingFooter(props) {
     <Flex
       gap="32px"
       direction="column"
-      width="1440px"
+      width="100% important"
       height="unset"
       justifyContent="flex-start"
       alignItems="center"

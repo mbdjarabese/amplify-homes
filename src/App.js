@@ -1,10 +1,10 @@
 import './App.css';
-import { StandardCard2, NavBarHeader, MarketingFooter } from './ui-components'
+import { HomeCollection, NavBarHeader2, MarketingFooter } from './ui-components'
 function App() {
 return (
  <div className="App">
- <NavBarHeader />
- <StandardCard2 />
+ <NavBarHeader2 />
+ <HomeCollection />
  <MarketingFooter />
  </div>
 );

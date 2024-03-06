@@ -27,3 +27,7 @@
 .App-link {
   color: #61dafb;
 }
+
+.amplify-image {
+  width: 20px !important;
+}

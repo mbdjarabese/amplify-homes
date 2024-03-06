@@ -16,7 +16,7 @@ export default function NavBarHeader(props) {
     <Flex
       gap="40px"
       direction="row"
-      width="1440px"
+      width="100%"
       height="unset"
       justifyContent="center"
       alignItems="center"
